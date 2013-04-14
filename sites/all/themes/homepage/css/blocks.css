@@ -66,6 +66,10 @@ h2.block-title { /* Block title */
 }
 
 #block-search-form { /* "Search form" block */
+	float: right;
+	position: relative;
+	margin-top: 1.5em;
+	margin-right: 0.5em;
 }
 
 #block-shortcut-shortcuts { /* "Shortcuts" block */

@@ -15,9 +15,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #C2BDC2;
 }
 
 #page {
+  background-color: #FFFFFF;
 }
 
 /*
@@ -43,15 +45,24 @@ body {
  */
 
 #header {
+	background-color: #fbeffa;
 }
 
 #logo { /* Wrapping link for logo */
   float: left; /* LTR */
-  margin: 0;
+  margin-left: 1.5em;
+  margin-top: 1em;
   padding: 0;
 }
 #logo img {
   vertical-align: bottom;
+}
+
+#banner {
+	float: left;
+	padding: 0;
+	margin-left: 2em;
+	margin-top: 1em;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -79,7 +90,7 @@ body {
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+  /*clear: both; /* Clear the logo */
 }
 
 /*
@@ -194,6 +205,21 @@ span.field-label { /* The inline field label used by the Fences module */
 }
 
 .more-link { /* Aggregator, blog, and forum more link */
+}
+
+/* contact */
+.page-node-3 .row {
+ clear: both;
+}
+.page-node-3 .label {
+ font-weight: bold;
+ float: left;
+ width: 15em;
+ padding-left: 5em;
+ margin-bottom: 2em;
+}
+.page-node-3 .value {
+ float: left;
 }
 
 /*

@@ -70,6 +70,14 @@ a.button { /* Buttons used by contrib modules like Media */
 #block-search-form { /* Wrapper for the search form */
 }
 
+#block-search-form input.form-submit {
+	background-color: #f69ee0;
+	border: 0 none;
+	color: #FFFFFF;
+	right: 10px;
+	top: 9px;
+}
+
 /*
  * Drupal's default login form block
  */
